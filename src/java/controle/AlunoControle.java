@@ -10,4 +10,8 @@ package controle;
  */
 public class AlunoControle {
     
+    public void metodo(){
+        
+    }
+    
 }
