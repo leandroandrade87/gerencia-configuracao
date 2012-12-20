@@ -3,6 +3,13 @@
   <persistence-unit name="gerencia-configuracaoPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>entity.AlunoEntity</class>
+    <class>entity.ProductCode</class>
+    <class>entity.PurchaseOrder</class>
+    <class>entity.Customer</class>
+    <class>entity.DiscountCode</class>
+    <class>entity.Manufacturer</class>
+    <class>entity.MicroMarket</class>
+    <class>entity.Product</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/sample"/>
