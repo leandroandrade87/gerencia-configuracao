@@ -10,4 +10,26 @@ package controle;
  */
 public class AlunoControle {
     
+    private String nomeAluno;
+    
+    public Integer metodo(){
+        return 1;
+    }
+    
+    public void novoMetodoVoid(){
+        
+    }
+    
+    
+
+    public String getNomeAluno() {
+        return nomeAluno;
+    }
+
+    public void setNomeAluno( String nomeAluno ) {
+        this.nomeAluno = nomeAluno;
+    }
+    
+    
+    
 }
