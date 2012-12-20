@@ -16,12 +16,6 @@ public class AlunoControle {
         return 1;
     }
     
-    public void novoMetodoVoid(){
-        
-    }
-    
-    
-
     public String getNomeAluno() {
         return nomeAluno;
     }
@@ -29,7 +23,4 @@ public class AlunoControle {
     public void setNomeAluno( String nomeAluno ) {
         this.nomeAluno = nomeAluno;
     }
-    
-    
-    
 }
