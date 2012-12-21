@@ -47,7 +47,7 @@ public class VerificarNovaCompraTest {
         instance.setCustomer(customer);
         boolean result = instance.verificarLimiteDisponivel(limiteCredito);
         
-        assertTrue(result);
+        assertTrue(false);
     }
 
     /**
