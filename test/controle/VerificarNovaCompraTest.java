@@ -45,8 +45,9 @@ public class VerificarNovaCompraTest {
         Integer limiteCredito = 10;
         VerificarNovaCompra instance = new VerificarNovaCompra();
         instance.setCustomer(customer);
-        boolean result = instance.verificarLimiteDisponivel(limiteCredito);
-        assertTrue(result);
+        //boolean result = instance.verificarLimiteDisponivel(limiteCredito);
+        
+        assertTrue(false);
     }
 
     /**
